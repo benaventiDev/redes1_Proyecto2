@@ -9,6 +9,8 @@
 ## Full network
 ![Topologia completa](img/topologia.jpg)
 
+
+
 ## Ips y VLAN RED Jutiapa
 Basado en los requerimientos de una subnetowork con VSLM se se escogió la primera red con subnet mask 28 para 14 hosts utilizables, y la segunda  subnet mask 29 para 6 hosts utilizables. La tercera subnet mask 27 para 30 con network id 192.168.12.32 lo que implica que desde el broadcast address de la anterior subnet se perdieron del ip 192.168.12.24 al 192.198.12.31, esto implica 8 ips que no pueden ser utilizados y esto se debe a la fragmentación, ya que un nuevo subnet block necesita que los bloques anteriores sean de igual o mayor tamaño que el bloque actual.
 
